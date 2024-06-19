@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
 	overflow-x: hidden;
 	background-color: #e8e9ed;
@@ -21,9 +21,6 @@ a {
 	padding: 0 150px;
 }
 
-.navbar {
-	/* width: 100vw; */
-}
 
 .navbar-cont {
 	width: 100%;
@@ -344,8 +341,8 @@ display: flex;
 }
 
 .social-contact a {
-    color: #000000;/*цвет иконок*/
-    transition: 0.5s;/*плавный переход*/
+    color: #000000;
+    transition: 0.5s;
 }
 
 .social-contact img {
@@ -415,11 +412,7 @@ display: flex;
 	font-size: 35px;
 }
 
-/* .price-group {
-	width: 100%;
-	height: 100%;
-	background-color: #000000;
-} */
+
 
 .price-group {
 	background: no-repeat url(../images/9.JPG);
@@ -485,11 +478,14 @@ display: flex;
 
 .psy-cont p {
 	font-size: 25px;
-=======
+	
+}
+
 body {
 	overflow-x: hidden;
 	background-color: #e8e9ed;
 }
+
 
 h1,
 h2,
@@ -695,52 +691,7 @@ footer h3 {
 
 
 
-/* foooter */
-footer{
-    position: relative;/*относительное позиционирование*/
-    width: 100%;/*на всю ширину*/
-    padding: 20px 50px;/*поля для контента*/
-    background: #231f20;/*цвет футера*/
-    display: flex;
-    justify-content: center;/*в центре по горизонтали*/
-    align-items: center;/*в центре по вертикали*/
-    flex-direction: column;
-    margin-top: 100px;/*отступ сверху*/
-}
-footer .wave{
-    position: absolute;/*абсолютное позиционирование*/
-    top: -100px;
-    left: 0;
-    width: 100%;
-}
-.social,
-.menu{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0;
-    flex-wrap: wrap;/*разрешен перенос на новую строку*/
-}
-.social li,
-.menu li{
-    list-style: none;/*удалить черные маркеры*/
-}
-.social li a {
-    font-size: 2em;/*размер иконок*/
-    color: #fff;/*цвет иконок*/
-    margin: 0 10px;
-    display: inline-block;/*отображать как строчно-блочный элемент*/
-    transition: 0.5s;/*плавный переход*/
-}
-.menu li a {
-    font-size: 1.2em;/*размер ссылок меню*/
-    color: #fff;/*цвет ссылок меню*/
-    opacity: 0.75;/*значение прозрачности*/
-    margin: 0 15px;
-    text-decoration: none;/*ссылка без подчеркивания*/
-    display: inline-block;
-}
+
 .menu li a:hover {
     opacity: 1;
 }
@@ -973,4 +924,28 @@ display: flex;
 .psy-cont p {
 	font-size: 25px;
 >>>>>>> cdb8fb44ec4659a2f28c60e46829cb0dd6d8ebb5
+}
+
+@media screen and (max-width: 460px) {
+	.cover-desc{
+	width: 100%;
+	}
+
+	.cover-desc h2 {
+	 font-size: 80px;
+	}
+
+	.cover-buttons {
+	width: 100%;
+	margin-top: 60px;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column; justify-content: left;
+	align-items: left;
+	}
+	.cover -desc a {
+	text-align: left;
+	width: 100%;
+	padding: 16px 0; margin: 10px 0;
+	}
 }
