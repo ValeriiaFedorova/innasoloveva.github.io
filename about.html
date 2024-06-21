@@ -6,12 +6,26 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=El+Messiri:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="images/ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">    
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>    
-    
+    <nav role='navigation' class="nav-mob">
+      <div id="menuToggle">
+           <input type="checkbox" />
+           <span></span>
+       <span></span>
+       <span></span>
+       <ul id="menu">
+         <li><a href="/innasoloveva.github.io/">Главная</a></li>
+         <li><a href="/innasoloveva.github.io/about">Обо мне</a></li>
+         <li><a href="/innasoloveva.github.io/price">Услуги</a></li>
+         <li><a href="/innasoloveva.github.io/contacts">Контакты</a></li>
+       </ul>
+     </div>
+   </nav>
 
     <div class="navbar shift">
       <div class="navbar-cont">
@@ -33,7 +47,9 @@
         </div>
 
         <div class="main-l-d">
+          
           <p>Цель моей работы - помочь человеку решить сложные ситуации с которыми он не может справиться самостоятельно</p>          
+          <a href="https://taplink.cc/solovevainna"><button class="button-def" data-aos="fade-up">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button></a>
         </div>
       </div>
 
@@ -45,10 +61,14 @@
 
       <div class="about-d">
         <h2>МОЙ ПУТЬ</h2>
-        <p>В психологию я попала не сразу, но всю жизнь эта сфера завлекала меня<br>
-          По определённым причинам стало актуально и блаблаблабла</p>
+        <p>Существует мнение, что люди часто идут в психологию, чтобы для начала решить свою травму. Так было и со мной.
+          Я рано стала предпринимателем и долгое время моё увлечение саморазвитием имело оттенок : «Вижу цель , Не вижу препятствий».
+          Коучинговые методы , направленные на целеполагание, достижения, получения результатов. Чаще материальных. 
+          Поиск и создание лучшей версии Себя. 
+          Есть такая фраза , что у людей , которые ориентированы на внешние атрибуты счастливой жизни рано или поздно может случиться ситуация , которую не решить при помощи денег..</br>
+          Так случилось и со мной. </p>
         
-        <a href="https://t.me/InnaSolovei"><button class="button-def">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button></a>
+        <a href="https://t.me/InnaSolovei"><button class="button-def"data-aos="fade-up">УЗНАТЬ БОЛЬШЕ</button></a>
       </div>
     </div>
 
@@ -58,7 +78,7 @@
         <hr>
         <div class="grid-item">
           <img src="images/arrow.png">
-          <div class="grid-item-text">
+          <div class="grid-item-text"data-aos="fade-up">
             <h3>Где я училась и из каких направлений</br>
               выстраивала свою практику: 
             </h3>
@@ -91,7 +111,7 @@
             <img src="images/8.JPG">
             <div class="about-d">
                 <div class="grid-item">
-                    <div class="grid-item-text">
+                    <div class="grid-item-text"data-aos="fade-up">
                       <h3>Техники и методики терапии</h3>
                       <p
                       •>Эриксоновский гипноз </br>
@@ -131,7 +151,8 @@
     </ul>       
        
     </footer>
-    
+    <script src="js/aos.js"></script>    
+    <script src="js/js.js"></script>  
    
    
   </body>
