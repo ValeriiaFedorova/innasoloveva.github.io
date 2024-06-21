@@ -73,7 +73,7 @@ a {
 .main-h h1 {
 	font-size: 170px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .6;
+	line-height: 1;
 }
 
 .main-h span {
@@ -138,7 +138,7 @@ a {
 
 .about-d h2 {
 	font-size: 58px;
-	line-height: .8;
+	line-height: 1;
 	/* font-variant-caps: all-petite-caps; */
 }
 
@@ -272,7 +272,7 @@ display: flex;
 
 .section-header{
 	font-size: 58px;
-	line-height: .8;
+	line-height: 1;
 	margin-left: 20px;
 	/* font-variant-caps: all-petite-caps;	 */
 }
@@ -400,7 +400,7 @@ display: flex;
 .price h3 {
 	font-size: 40px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .price p {
@@ -431,7 +431,7 @@ display: flex;
 .price-group h3 {
 	font-size: 100px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .price-group p {
@@ -442,7 +442,7 @@ display: flex;
 .price-group h2 {
 	font-size:70px;
 	margin: 0;
-	line-height: .8;
+	line-height: 1;
 }
 
 .price-psy {
@@ -470,7 +470,7 @@ display: flex;
 .psy-cont h1 {
 	font-size: 100px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .psy-cont p {
@@ -552,7 +552,7 @@ a {
 .main-h h1 {
 	font-size: 160px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .6;
+	line-height: 1;
 }
 
 .main-h span {
@@ -617,7 +617,7 @@ a {
 
 .about-d h2 {
 	font-size: 55px;
-	line-height: .8;
+	line-height: 1;
 	/* font-variant-caps: all-petite-caps; */
 }
 
@@ -702,7 +702,7 @@ display: flex;
 
 .section-header{
 	font-size: 55px;
-	line-height: .8;
+	line-height: 1;
 	margin-left: 20px;
 	/* font-variant-caps: all-petite-caps;	 */
 }
@@ -830,7 +830,7 @@ display: flex;
 .price h3 {
 	font-size: 38px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .price p {
@@ -860,7 +860,7 @@ display: flex;
 .price-group h3 {
 	font-size: 100px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height:1;
 }
 
 .price-group p {
@@ -871,7 +871,7 @@ display: flex;
 .price-group h2 {
 	font-size:70px;
 	margin: 0;
-	line-height: .8;
+	line-height: 1;
 }
 
 .price-psy {
@@ -899,7 +899,7 @@ display: flex;
 .psy-cont h1 {
 	font-size: 90px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .psy-cont p {
@@ -955,7 +955,7 @@ display: flex;
 	.main-h h1 {
 		font-size: 60px;
 		/* font-variant-caps: all-petite-caps; */
-		line-height: .6;
+		line-height: 1;
 		margin-top: 40vh;	
 	}
 	
@@ -1025,7 +1025,7 @@ display: flex;
 	.about-d h2 {
 		flex-direction: row;
 		font-size: 34px;
-		line-height: .8;
+		line-height: 1;
 		/* font-variant-caps: all-petite-caps; */
 	}
 	
@@ -1065,7 +1065,7 @@ display: flex;
 .price-group h3 {
 	font-size: 45px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .price-group p {
@@ -1076,7 +1076,7 @@ display: flex;
 .price-group h2 {
 	font-size:70px;
 	margin: 0;
-	line-height: .8;
+	line-height: 1;
 }
 .price-psy {
 	display: flex;
@@ -1118,7 +1118,7 @@ display: flex;
 .price h3 {
 	font-size: 23px;
 	/* font-variant-caps: all-petite-caps; */
-	line-height: .8;
+	line-height: 1;
 }
 
 .price p {
@@ -1178,7 +1178,7 @@ display: flex;
 	
 	.section-header{
 		font-size: 58px;
-		line-height: .8;
+		line-height: 1;
 		margin-left: 18px;
 		/* font-variant-caps: all-petite-caps;	 */
 	}
@@ -1245,7 +1245,7 @@ display: flex;
 	.psy-cont h1 {
 		font-size: 38px;
 		/* font-variant-caps: all-petite-caps; */
-		line-height: .8;
+		line-height: 1;
 	}
 
 	.psy-cont p {
