@@ -10,7 +10,7 @@ h2,
 h3,
 h4 {
 	font-family: "El Messiri", sans-serif;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 }
 
 p,
@@ -37,7 +37,7 @@ a {
 }
 
 .menu-r a {
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	color: black;
 	font-size: 24px;
 	text-decoration: none;
@@ -72,7 +72,7 @@ a {
 }
 .main-h h1 {
 	font-size: 170px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	line-height: .6;
 	margin-bottom: 0;
 }
@@ -83,7 +83,7 @@ a {
 
 .main-h p {
 	font-size: 24px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin-left: 30%;
 }
 
@@ -141,7 +141,7 @@ a {
 	font-size: 58px;
 	line-height: .8;
 	margin: 0;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 }
 
 .about-d p {
@@ -179,7 +179,7 @@ a {
 
 .grid-item h3 {
 	margin: 0;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	font-size: 40px;
 }
 
@@ -276,7 +276,7 @@ display: flex;
 	font-size: 58px;
 	line-height: .8;
 	margin-left: 20px;
-	font-variant-caps: all-petite-caps;	
+	/* font-variant-caps: all-petite-caps;	 */
 }
 .section-cont{
 	margin-left: 20px;
@@ -314,7 +314,7 @@ display: flex;
 
 .section-contact h2 {
 	font-size: 100px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 }
 
@@ -371,7 +371,7 @@ display: flex;
 
 .price-cont h2 {
 	font-size: 110px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 }
 
@@ -402,7 +402,7 @@ display: flex;
 
 .price h3 {
 	font-size: 40px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -434,7 +434,7 @@ display: flex;
 
 .price-group h3 {
 	font-size: 110px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -474,7 +474,7 @@ display: flex;
 
 .psy-cont h1 {
 	font-size: 100px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -495,7 +495,7 @@ h2,
 h3,
 h4 {
 	font-family: "El Messiri", sans-serif;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 }
 
 p,
@@ -522,7 +522,7 @@ a {
 }
 
 .menu-r a {
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	color: black;
 	font-size: 24px;
 	text-decoration: none;
@@ -557,7 +557,7 @@ a {
 
 .main-h h1 {
 	font-size: 170px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	line-height: .6;
 	margin-bottom: 0;
 }
@@ -568,7 +568,7 @@ a {
 
 .main-h p {
 	font-size: 24px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin-left: 30%;
 }
 
@@ -626,7 +626,7 @@ a {
 	font-size: 58px;
 	line-height: .8;
 	margin: 0;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 }
 
 .about-d p {
@@ -664,7 +664,7 @@ a {
 
 .grid-item h3 {
 	margin: 0;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	font-size: 40px;
 }
 
@@ -713,7 +713,7 @@ display: flex;
 	font-size: 58px;
 	line-height: .8;
 	margin-left: 20px;
-	font-variant-caps: all-petite-caps;	
+	/* font-variant-caps: all-petite-caps;	 */
 }
 .section-cont{
 	margin-left: 20px;
@@ -752,7 +752,7 @@ display: flex;
 
 .section-contact h2 {
 	font-size: 100px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 }
 
@@ -809,7 +809,7 @@ display: flex;
 
 .price-cont h2 {
 	font-size: 110px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 }
 
@@ -840,7 +840,7 @@ display: flex;
 
 .price h3 {
 	font-size: 40px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -871,7 +871,7 @@ display: flex;
 
 .price-group h3 {
 	font-size: 110px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -911,7 +911,7 @@ display: flex;
 
 .psy-cont h1 {
 	font-size: 100px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -968,7 +968,7 @@ display: flex;
 	
 	.main-h h1 {
 		font-size: 80px;
-		font-variant-caps: all-petite-caps;
+		/* font-variant-caps: all-petite-caps; */
 		line-height: .6;
 		margin-bottom: 0;
 		margin-top: 40vh;	
@@ -980,7 +980,7 @@ display: flex;
 	
 	.main-h p {
 		font-size: 17px;
-		font-variant-caps: all-petite-caps;
+		/* font-variant-caps: all-petite-caps; */
 		/* margin-left: 30%; */
 	}
 	
@@ -1001,6 +1001,7 @@ display: flex;
 		border-radius: 35px;
 		border: 1px solid #000;
 		background-color: #e8e9ed;
+		color: #000000;
 		font-size: 15px;
 		cursor: pointer;
 		transition: .5s;
@@ -1041,7 +1042,7 @@ display: flex;
 		font-size: 34px;
 		line-height: .8;
 		margin: 0;
-		font-variant-caps: all-petite-caps;
+		/* font-variant-caps: all-petite-caps; */
 	}
 	
 	.about-d p {
@@ -1079,7 +1080,7 @@ display: flex;
 }
 .price-group h3 {
 	font-size: 45px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -1104,7 +1105,7 @@ display: flex;
 
 .price-cont h2 {
 	font-size: 45px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 }
 
@@ -1134,7 +1135,7 @@ display: flex;
 
 .price h3 {
 	font-size: 23px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 	line-height: .8;
 }
@@ -1198,7 +1199,7 @@ display: flex;
 		font-size: 58px;
 		line-height: .8;
 		margin-left: 20px;
-		font-variant-caps: all-petite-caps;	
+		/* font-variant-caps: all-petite-caps;	 */
 	}
 	.section-cont{
 		margin-left: 20px;
@@ -1238,7 +1239,7 @@ display: flex;
 	
 	.grid-item h3 {
 		margin: 0;
-		font-variant-caps: all-petite-caps;
+		/* font-variant-caps: all-petite-caps; */
 		font-size: 40px;
 	}
 	
@@ -1263,7 +1264,7 @@ display: flex;
 	
 	.psy-cont h1 {
 		font-size: 40px;
-		font-variant-caps: all-petite-caps;
+		/* font-variant-caps: all-petite-caps; */
 		margin: 0;
 		line-height: .8;
 	}
@@ -1401,7 +1402,7 @@ a:hover
 }
 .section-contact h2 {
 	font-size: 56px;
-	font-variant-caps: all-petite-caps;
+	/* font-variant-caps: all-petite-caps; */
 	margin: 0;
 }
 
