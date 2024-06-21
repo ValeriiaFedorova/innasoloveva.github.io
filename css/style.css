@@ -1179,7 +1179,7 @@ display: flex;
 	.section-header{
 		font-size: 58px;
 		line-height: .8;
-		margin-left: 20px;
+		margin-left: 18px;
 		/* font-variant-caps: all-petite-caps;	 */
 	}
 	.section-cont{
@@ -1219,9 +1219,8 @@ display: flex;
 	}
 	
 	.grid-item h3 {
-		margin: 0;
 		/* font-variant-caps: all-petite-caps; */
-		font-size: 40px;
+		font-size: 38px;
 	}
 	
 	.grid-item img {
@@ -1244,9 +1243,8 @@ display: flex;
 	}
 	
 	.psy-cont h1 {
-		font-size: 40px;
+		font-size: 38px;
 		/* font-variant-caps: all-petite-caps; */
-		margin: 0;
 		line-height: .8;
 	}
 
@@ -1382,9 +1380,8 @@ a:hover
   opacity: 1;
 }
 .section-contact h2 {
-	font-size: 56px;
+	font-size: 50px;
 	/* font-variant-caps: all-petite-caps; */
-	margin: 0;
 }
 
 .contact-links {
