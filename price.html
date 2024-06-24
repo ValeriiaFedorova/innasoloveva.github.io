@@ -11,44 +11,46 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>   
 
-    <nav role='navigation'>
+  <body>   
+    <nav role='navigation' class="nav-mob">
       <div id="menuToggle">
-           <input type="checkbox" />
-           <span></span>
-       <span></span>
-       <span></span>
-       <ul id="menu">
-         <a href="/innasoloveva.github.io/">Главная</a></li>
-         <a href="/innasoloveva.github.io/about">Обо мне</a></li>
-         <a href="/innasoloveva.github.io/price">Услуги</a></li>
-         <a href="/innasoloveva.github.io/contacts">Контакты</a></li>
-       </ul>
-     </div>
-   </nav>
+            <input type="checkbox" />
+            <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <li><a href="/">ГЛАВНАЯ</a></li>
+          <li><a href="/about">ОБО МНЕ</a></li>
+          <li><a href="/price">УСЛУГИ</a></li>
+          <li><a href="/contacts">КОНТАКТЫ</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="navbar shift">
       <div class="navbar-cont">
-        <img src="images/logo.svg">
+        <a href="/"><img src="images/logo.svg"></a>
 
         <div class="menu-r">
-          <a href="/innasoloveva.github.io/">Главная</a>
-          <a href="/innasoloveva.github.io/about">Обо мне</a>
-          <a href="/innasoloveva.github.io/price">Услуги</a>
-          <a href="/innasoloveva.github.io/contacts">Контакты</a>
+          <a href="/">ГЛАВНАЯ</a>
+          <a href="/about">ОБО МНЕ</a>
+          <a href="/price">УСЛУГИ</a>
+          <a href="/contacts">КОНТАКТЫ</a>
         </div>
       </div>
     </div>
           
     <div class="main shift">
       <div class="main-l">
-        <div class="main-h">
+        <div class="not-main-h">
           <h1>УСЛУГИ</span></h1>
+          <p>/ Сессии в удобном для вас формате /</p>
         </div>
 
-        <div class="main-l-d">
+        <div class="not-main-l-d">
           <p>Любая, даже самая сложная на ваш взгляд ситуация, имеет решение. Моя задача — помочь быстро её решить и предотвратить повторение в будущем.</p>
-          <a href="https://taplink.cc/solovevainna"><button class="button-def" data-aos="fade-up">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button></a>
+          <a href="https://taplink.cc/solovevainna"><button class="button-def">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button></a>
         </div>
       </div>
 
@@ -58,12 +60,14 @@
   <div class="price-cont shift">
     <h2>ЦЕНЫ НА СЕАНСЫ</h2>
 
-    <div class="prices">
+    <div class="prices" data-aos="fade-up">
       <div class="price">
         <h3>ИНДИВИДУАЛЬНАЯ СЕССИЯ</h3>
         <p>Длительность: 60-90 минут</br>
           Подходит тем, кто хочет точечно решить запрос </p>
         <h2>22 000 руб.</h2>
+        
+        <a href="#"><button class="button-def">ЗАПИСАТЬСЯ</button></a>
       </div>
 
       <div class="price">
@@ -71,6 +75,7 @@
         <p>3 сессии по 60-90 минут </br>
           Подходит тем, кто хочет пройти полную терапию с поддержкой психолога</p>
         <h2>50 000 руб.</h2>
+        <a href="#"><button class="button-def">ЗАПИСАТЬСЯ</button></a>
       </div>
 
       <div class="price">
@@ -79,14 +84,18 @@
           Подходит тем, кто хочет обрести новую идентичность,
            собрать новый фундамент, мышление и стратегии для того, чтобы чувствовать удовлетворение от своей жизни.</p>
         <h2>От 130 000 руб.</h2>
+        <a href="#"><button class="button-def">ЗАПИСАТЬСЯ</button></a>
       </div>
     </div>
   </div>       
 
   <div class="price-group">
-    <h3>ТЕРАПЕВТИЧЕСКАЯ ГРУППА</h3>
-    <p>5 встреч</p>
-    <h2>44 000 руб.</h2>
+    <div class="price-group-cont">
+      <h3>ТЕРАПЕВТИЧЕСКАЯ ГРУППА</h3>
+      <p>5 встреч</p>
+      <h2>44 000 руб.</h2>
+      <a href="#"><button class="button-def">ЗАПИСАТЬСЯ</button></a>
+    </div>
   </div>
 
   <div class="price-psy shift">
@@ -94,34 +103,59 @@
 
     <div class="psy-cont">
       <h1>СУПЕРВИЗИЯ ДЛЯ ПСИХОЛОГОВ</span></h1>
-      <p>        • Разрешение профессиональных затруднений в работе с конкретным клиентом</br>
-        • Профилактика эмоционального выгорания</br>
-        • Профессиональное развитие специалиста, повышение эффективности его работы</br>
-        • Осознание вытесненных аспектов терапевтических отношений</p>
-      
+      <ul>
+        <li><p>Разрешение профессиональных затруднений в работе с конкретным клиентом</p></li>
+        <li><p>Профилактика эмоционального выгорания</p></li>
+        <li><p>Профессиональное развитие специалиста, повышение эффективности его работы</p></li>
+        <li><p>Осознание вытесненных аспектов терапевтических отношений</p></li>
+      </ul>
     </div>
   </div>
       
-    <footer>
-      <div class="waves">
-          <div class="wave" id="wave1"></div>
+  <footer>
+    <div class="foo-cont shift">
+      <div class="foo-left">
+        <div class="foo-desk">
+          <a href="/"><img src="images/logo-w.svg"></a>
+          <p>Помогу разобраться в себе</p>
+        </div>
+
+        <div class="foo-info">
+          <p>ИП Соловьёва Инна Евгеньевна<br>
+            ИНН 262512056243<br>
+            197375, г.Санкт-Петербург, ул.Репищева д.10, к.3, кв.82
+          </p>
+          
+          <h4>© 2024 InnaSolovei</h4>
+        </div>
       </div>
-      <ul class="social" data-aos="zoom-in">
-        <li><a href="https://t.me/InnaSolovei"><img src="images/telegram.png"></a></li>
-        <li><a href="https://wa.me/79291067440"><img src="images/whatsapp.png"></a></li>
-        <li><a href="https://https://msng.link/o?inna_solovei_=ig"><img src="images/insta.png"></a></li>
-    </ul>
-    <ul class="menu">
-      <li><a href="/innasoloveva.github.io/index">Главная</a></li>
-      <li><a href="/innasoloveva.github.io/about">Обо мне</a></li>
-      <li><a href="/innasoloveva.github.io/price">Услуги</a></li>
-      <li><a href="/innasoloveva.github.io/contacts">Контакты</a></li>
-  </ul>       
-     
-  </footer>
-     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+      <div class="foo-center">
+          <a href="/index">Главная</a>
+          <a href="/about">Обо мне</a>
+          <a href="/price">Услуги</a>
+          <a href="/contacts">Контакты</a>
+      </div>
+        
+      <div class="foo-end">
+        <a href="tel:+79291067440" class="foo-phone">+7 929 106 74 40</a>
+        <div class="foo-social">
+          <a href="https://t.me/InnaSolovei"><img src="images/tg.svg"></a>
+          <a href="https://wa.me/79291067440"><img src="images/whats.svg"></a>
+          <a href="https://https://msng.link/o?inna_solovei_=ig"><img src="images/inst.svg"></a>
+        </div> 
+        <div class="foo-docs">
+          <a href="https://docs.google.com/document/d/1VYHXOdp3a48p2sCRoEaDZn9WIOy3rlQE/edit?usp=sharing&ouid=103871640287619024097&rtpof=true&sd=true" target=”_blank”>Порядок предоставления услуг</a>
+          <a href="/privacy" target=”_blank”>Политика обработки персональных данных</a>
+        </div>
+      </div>
+    </div>    
+  </footer>  
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="js/aos.js"></script>    
     <script src="js/js.js"></script>  
+
   </body>
 </html>
