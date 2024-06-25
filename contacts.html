@@ -7,27 +7,13 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <link rel="icon" href="images/ico.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Days+One&family=El+Messiri:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">       
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>   
-    <nav role='navigation' class="nav-mob">
-      <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-          <li><a href="/">ГЛАВНАЯ</a></li>
-          <li><a href="/about">ОБО МНЕ</a></li>
-          <li><a href="/price">УСЛУГИ</a></li>
-          <li><a href="/contacts">КОНТАКТЫ</a></li>
-        </ul>
-      </div>
-    </nav>
-
     <div class="navbar shift">
       <div class="navbar-cont">
         <a href="/"><img src="images/logo.svg"></a>
@@ -41,8 +27,21 @@
       </div>
     </div>
 
+    <div class="topnav">
+      <a href="/"><img src="images/logo.svg"></a>
+      <div id="myLinks">
+        <a href="/">ГЛАВНАЯ</a>
+        <a href="/about">ОБО МНЕ</a>
+        <a href="/price">УСЛУГИ</a>
+        <a href="/contacts">КОНТАКТЫ</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
     <div class="row-cont shift">   
-      <img src="images/5.JPG" class="image1">
+      <img src="images/5.JPG" class="cont-img">
         <div class="section-contact">  
           <h2>КОНТАКТЫ</h2>
           <div class="contact-links">          
@@ -60,7 +59,8 @@
           
           <a href="https://taplink.cc/solovevainna"><button class="button-def">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button></a>
         </div>  
-    </div>       
+      <img src="images/5.JPG" class="cont-img-mob">
+    </div>
       
     <footer>
       <div class="foo-cont shift">
@@ -75,7 +75,6 @@
               ИНН 262512056243<br>
               197375, г.Санкт-Петербург, ул.Репищева д.10, к.3, кв.82
             </p>
-            
             <h4>© 2024 InnaSolovei</h4>
           </div>
         </div>
@@ -99,11 +98,28 @@
             <a href="https://docs.google.com/document/d/1VYHXOdp3a48p2sCRoEaDZn9WIOy3rlQE/edit?usp=sharing&ouid=103871640287619024097&rtpof=true&sd=true" target=”_blank”>Порядок предоставления услуг</a>
             <a href="/privacy" target=”_blank”>Политика обработки персональных данных</a>
           </div>
+          <div class="foo-info-mob">
+            <p>ИП Соловьёва Инна Евгеньевна<br>
+              ИНН 262512056243<br>
+              197375, г.Санкт-Петербург, ул.Репищева д.10, к.3, кв.82
+            </p>
+            <h4>© 2024 InnaSolovei</h4>
+          </div>
         </div>
       </div>    
     </footer>  
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "flex") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "flex";
+        }
+      }
+      </script>
   </body>
 </html>
