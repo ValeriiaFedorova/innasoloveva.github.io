@@ -138,6 +138,7 @@ p,a {
 	background-color: #e8e9ed;
 	cursor: pointer;
 	transition: .5s;
+	color: #000 !important;
 }
 
 .button-def:hover {
