@@ -373,7 +373,7 @@ a.foo-phone {
 .not-main-h h1 {
 	font-size: 125px;
 	line-height: .9;
-	margin: 24vh 0 0 0;
+	margin: 22vh 0 0 0;
 }
 
 .not-main-h p {
@@ -388,7 +388,8 @@ a.foo-phone {
 }
 
 .not-main-l-d p {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	line-height: 1.6;
 }
 
 
@@ -442,17 +443,17 @@ a.foo-phone {
 
 .therapy-d h2 {
 	font-size: 45px;
-	margin: 0;
+	margin: 0 0 30px 0;
 }
 
 .therapy-d p {
 	font-size: 16px;
-	margin: 0 0 8px 0;
-	line-height: 1.2;
+	margin: 0 0 10px 0;
+	line-height: 1.4;
 }
 
-.therapy-d li {
-	margin: 0;
+.therapy-d a {
+	margin-top: 15px;
 }
 
 
@@ -478,9 +479,9 @@ a.foo-phone {
 }
 
 .price {
-	height: 50vh;
+	/* height: 50vh; */
 	border: 1.5px solid #000;
-    padding: 80px 20px;
+    padding: 40px 20px 65px 20px;
     text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -497,6 +498,10 @@ a.foo-phone {
 .price h3 {
 	font-size: 30px;
 	line-height: 1;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .price p {
@@ -524,7 +529,7 @@ a.foo-phone {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/* justify-content: center; */
 	flex-direction: column;
 }
 
@@ -571,9 +576,13 @@ a.foo-phone {
 }
 
 .psy-cont p {
-	font-size: 16px;
-	margin: 0 0 10px 0;
-	line-height: 1.2;
+	font-size: 17px;
+	margin: 0 0 12px 0;
+	line-height: 1.6;
+}
+
+.psy-cont a {
+	margin-top: 25px;
 }
 
 
@@ -672,6 +681,7 @@ a.foo-phone {
 		width: 70%;
 		line-height: 1.6;
 		margin-bottom: 30px;
+		line-height: 1.6;
 	}
 	
 	.button-def {
